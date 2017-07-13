@@ -1,0 +1,15 @@
+.construction {
+	padding-top: 3em;
+	margin: auto;
+	width: 100%;
+}
+
+img {
+	display: block;
+	margin: auto;
+}
+
+h2 {
+	font-family: 'Arvo', serif;
+	text-align: center;
+}
