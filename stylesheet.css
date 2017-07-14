@@ -4,6 +4,13 @@
 	width: 100%;
 }
 
+.confused {
+	padding-top: 3em;
+	margin: auto;
+	width: 100%;
+	transform: scale(4, 4);
+}
+
 img {
 	display: block;
 	margin: auto;
