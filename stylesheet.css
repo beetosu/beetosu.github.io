@@ -2,6 +2,10 @@ body {
 	text-align: center;
 }
 
+.namedrop {
+	padding-top: 2em;
+}
+
 .construction {
 	padding-top: 3em;
 	margin: auto;
