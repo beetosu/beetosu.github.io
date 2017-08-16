@@ -30,8 +30,11 @@ h1 {
 	font-size: 300%;
 }
 
-.options .collector h1 {
+.options .collector {
 	padding-top: 2em;
+}
+	
+.options .collector h1 {
 	display: inline;
 }
 
