@@ -40,6 +40,10 @@ h1 {
     margin-right: .5em;
 }
 
+.banners {
+	padding-top: 2em;
+}
+
 @font-face {
     font-family: F16;
     src: url("leaguespartan-bold.ttf") format('truetype');
