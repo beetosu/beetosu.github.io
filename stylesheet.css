@@ -34,6 +34,10 @@ h1 {
 	padding-top: 2em;
 }
 	
+.options .collector a {
+	text-decoration: none;
+}
+	
 .options .collector h1 {
 	display: inline;
 	margin-left: .5em;
