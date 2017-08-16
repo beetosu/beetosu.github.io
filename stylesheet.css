@@ -51,6 +51,8 @@ h1 {
 .banners img {
 	padding-right: .5em;
 	padding-left: .5em;
+	width: 75%;
+	height: 75%;
 }
 	
 @font-face {
