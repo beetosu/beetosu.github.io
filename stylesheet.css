@@ -77,6 +77,11 @@ a {
     margin-right: .5em;
 }
 
+.collector b {
+	color: #ff6140;
+	font-size: 100%
+}
+
 .banners {
 	padding-top: 2em;
 }
@@ -105,9 +110,29 @@ a {
 }
 
 .desc p {
-	bottom: 5em;
+	bottom: .5em;
 }
 
+.desc img {
+	padding-top: .5em;
+}
+
+.site {
+	display:inline
+}
+
+.site b {
+	font-size: 200%
+}
+
+.site p {
+	bottom: 1em;
+}
+
+.site img {
+	padding-top: 1em;
+}
+	
 @font-face {
     font-family: F16;
     src: url("leaguespartan-bold.ttf") format('truetype');
