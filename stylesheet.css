@@ -49,6 +49,16 @@ p {
 	padding-left: 1em;
 }
 
+h5 {
+	font-family: F16;
+	color: #ffffff;
+	text-align: center;
+	font-size: 2em;
+	display: inline-block;
+	margin-top: .25em;
+    margin-bottom: 0;
+}
+
 b {
 	font-size: 125%
 }
@@ -85,7 +95,19 @@ a {
 .bio a {
 	color: #ff6140;
 }
-	
+
+.desc {
+	display: inline;
+}
+
+.desc b {
+	font-size: 200%
+}
+
+.desc p {
+	bottom: 5em;
+}
+
 @font-face {
     font-family: F16;
     src: url("leaguespartan-bold.ttf") format('truetype');
