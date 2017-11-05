@@ -93,6 +93,8 @@ a {
 }
 
 .bio img {
+	height: 12%;
+	width: 12%;
 	padding-top: 2em;
 	display: inline;
 }
