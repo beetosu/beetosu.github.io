@@ -51,6 +51,7 @@ h6 {
 }
 
 .projects{
+	position:relative;
 	width: 650px;
 	margin: 0 auto;
 }
