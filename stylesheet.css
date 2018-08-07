@@ -39,7 +39,7 @@ h6 {
 }
 
 .logo{
-	position:relative;
+	position:static;
 	text-align: center;
 	top: calc(17vh - 100px);
 	width:100%;
@@ -51,7 +51,7 @@ h6 {
 }
 
 .projects{
-	position:relative;
+	position:static;
 	width: 650px;
 	margin: 0 auto;
 }
