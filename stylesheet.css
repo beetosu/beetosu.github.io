@@ -39,7 +39,7 @@ h6 {
 }
 
 .logo{
-	position:static;
+	position:relative;
 	text-align: center;
 	margin-top: 2em;
 	width:100%;
@@ -51,7 +51,7 @@ h6 {
 }
 
 .projects{
-	position:static;
+	position:relative;
 	width: 650px;
 	margin: 0 auto;
 }
@@ -112,12 +112,4 @@ h6 {
     src: url("leaguespartan-bold.ttf") format('truetype');
     font-weight: bold;
     font-style: normal;
-}
-
-@media screen and (max-height: 600px) {
-	#logo{
-		position:relative;
-		top: 20px;
-	}
-
 }
