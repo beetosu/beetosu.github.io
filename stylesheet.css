@@ -3,7 +3,7 @@ body {
 	image-rendering: pixelated;
 	font-family: 'Futura', sans-serif;
 	max-width: min(90vw, 600px);
-	background-color: #f9d0cf;
+	animation: bkg-color-fade 20s ease-in-out infinite alternate;
 }
 
 header {
@@ -23,7 +23,7 @@ header {
 	}
 
 	.logo-bkg {
-		background-color: #f25f5c;
+		animation: logo-color-fade 20s ease-in-out infinite alternate;
 		padding: 3%;
 		border-radius: 50%;
 
@@ -35,4 +35,14 @@ header {
 
 main {
 	padding-top: 30px;
+}
+
+@keyframes logo-color-fade {
+  from { background-color: #f25f5c; }
+  to   { background-color: #65d17d; }
+}
+
+@keyframes bkg-color-fade {
+  from { background-color: #f9d0cf; }
+  to   { background-color: #d9f9cf; }
 }
